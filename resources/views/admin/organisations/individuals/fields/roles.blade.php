@@ -1,0 +1,2 @@
+{!! Form::label('roles', trans('claim.claim_relationship'), ['class' => 'control-label"','id' => 'roles_label']) !!} {!! Html::required() !!}<br>
+<select id="roles" name="roles" multiple tabindex="403"></select>

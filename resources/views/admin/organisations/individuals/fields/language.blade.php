@@ -1,0 +1,2 @@
+{!! Form::label('language_id', trans('individual.language'), ['class' => 'control-label"','id' => 'language_id_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('language_id', [],null,['id' => 'language_id','tabindex'=>401]) !!}

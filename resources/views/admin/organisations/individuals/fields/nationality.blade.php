@@ -1,0 +1,2 @@
+{!! Form::label('nationality_id', trans('individual.nationality'), ['class' => 'control-label"','id' => 'nationality_id_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('nationality_id', [],null,['id' => 'nationality_id','tabindex' => 402]) !!}

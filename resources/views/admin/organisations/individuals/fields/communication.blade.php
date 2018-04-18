@@ -1,0 +1,2 @@
+{!! Form::label('communication', trans('individual.communication'), ['class' => 'control-label"','id' => 'communication_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('communication', [],null,['id' => 'communication','tabindex' => 404]) !!}

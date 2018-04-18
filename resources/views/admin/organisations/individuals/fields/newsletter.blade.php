@@ -1,0 +1,1 @@
+{!! Form::select('newsletter', [],null,['id' => 'newsletter','tabindex' => 404]) !!}

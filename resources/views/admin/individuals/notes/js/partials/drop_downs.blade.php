@@ -1,0 +1,1 @@
+var note_types = renderDropDown({ element:note_type_id, option:'@lang('individual_note.note_type_select')', url:'{{ route('admin.drop_down.list',['name' => 'NoteType']) }}' });

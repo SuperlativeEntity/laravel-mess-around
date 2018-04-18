@@ -1,0 +1,42 @@
+#logo-container
+{
+    margin           : auto;
+    margin-left      : -2px;
+    margin-bottom    : 18px;
+    width            : 250px;
+    height           : 91px;
+}
+
+.well
+{
+    background-color : #FFFFFF;
+    min-width        : 290px
+}
+
+#overlay
+{
+    display          : none;
+    background-color : #FFFFFF;
+    position         : fixed;
+    left             : 0;
+    top              : 0;
+    height           : 100%;
+    width            : 100%;
+    opacity          : 0.1;
+    z-index          : 10;
+}
+
+html,body
+{
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    height         : 100%;
+    background     : #404143 !important;
+}
+
+.login
+{
+    display: inline-block;
+}

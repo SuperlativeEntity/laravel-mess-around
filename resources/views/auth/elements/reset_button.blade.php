@@ -1,0 +1,1 @@
+<button id="reset_password_btn" type="button" class="btn btn-primary btn-block">@lang('reset.reset_password')</button>

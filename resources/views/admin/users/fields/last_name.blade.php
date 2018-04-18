@@ -1,0 +1,1 @@
+{!! Html::input(['input_group' => true,'label' => trans('user.last_name'),'name' => 'last_name','type' => 'text','value' => isset($user->last_name) ? $user->last_name : null,'placeholder' => trans('user.last_name')]) !!}

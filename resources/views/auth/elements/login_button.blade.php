@@ -1,0 +1,1 @@
+<button id="login_btn" type="button" class="btn btn-success btn-block btn-lg">@lang('login.sign_in')</button>

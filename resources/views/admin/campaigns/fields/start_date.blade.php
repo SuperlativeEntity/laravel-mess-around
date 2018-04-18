@@ -1,0 +1,2 @@
+{!! Form::label('start_date', trans('campaign.start_date'), ['class' => 'control-label"','id' => 'start_date_label']) !!} {!! Html::required() !!}<br>
+{!! Form::text('start_date', isset($campaign) ? $campaign->start_date : date(config('dates.default_format')),['name' => 'start_date']) !!}<br>

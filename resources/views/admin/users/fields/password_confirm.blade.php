@@ -1,0 +1,1 @@
+{!! Html::input(['input_group' => true,'label' => trans('user.password_confirmation'),'name' => 'password_confirmation','type' => 'password','placeholder' => trans('user.password_confirmation')]) !!}

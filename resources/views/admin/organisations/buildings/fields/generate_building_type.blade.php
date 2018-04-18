@@ -1,0 +1,2 @@
+{!! Form::label('generate_building_type_id', trans('building.building_type'), ['class' => 'control-label"','id' => 'building_type_id_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('generate_building_type_id', [],null,['id' => 'generate_building_type_id']) !!}

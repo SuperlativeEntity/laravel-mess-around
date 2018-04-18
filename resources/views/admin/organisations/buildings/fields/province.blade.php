@@ -1,0 +1,2 @@
+{!! Form::label('province_id', trans('building.province'), ['class' => 'control-label"','id' => 'province_id_label']) !!}<br>
+{!! Form::select('province_id', [],null,['id' => 'province_id','tabindex'=>300]) !!}

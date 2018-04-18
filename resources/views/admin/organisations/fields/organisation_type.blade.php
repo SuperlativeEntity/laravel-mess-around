@@ -1,0 +1,2 @@
+{!! Form::label('organisation_type_id', trans('organisation.organisation_type'), ['class' => 'control-label"','id' => 'organisation_type_id_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('organisation_type_id', [],null,['id' => 'organisation_type_id','tabindex'=>100]) !!}

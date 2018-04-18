@@ -1,0 +1,1 @@
+{!! Html::input(['input_group' => true,'label' => trans('user.email'),'name' => 'email','type' => 'email','value' => isset($user->email) ? $user->email : null,'placeholder' => trans('user.email')]) !!}

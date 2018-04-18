@@ -1,0 +1,4 @@
+var building_types      = renderDropDown({ element:building_type_id, option:'@lang('building.building_type_select')', url:'{{ route('admin.drop_down.list',['name' => 'BuildingType']) }}' });
+var districts           = renderDropDown({ element:district_id, option:'@lang('building.district_select')', url:'{{ route('admin.drop_down.list',['name' => 'District']) }}' });
+var provinces           = renderDropDown({ element:province_id, option:'@lang('building.province_select')', url:'{{ route('admin.drop_down.list',['name' => 'Province']) }}' });
+var valcon_registered   = renderDropDown({ element:valcon_registered_id, option:'@lang('building.valcon_registered')', url:'{{ route('admin.drop_down.list',['name' => 'Choice']) }}' });

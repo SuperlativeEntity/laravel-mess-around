@@ -1,0 +1,1 @@
+<input id="password_confirmation" name="password_confirmation" type="password" class="form-control input-lg" placeholder="@lang('reset.password_confirm')"/>

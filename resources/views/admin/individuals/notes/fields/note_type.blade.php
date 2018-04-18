@@ -1,0 +1,2 @@
+{!! Form::label('note_type_id', trans('individual_note.note_type'), ['class' => 'control-label"','id' => 'note_type_id_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('note_type_id', [],null,['id' => 'note_type_id','tabindex'=>300]) !!}

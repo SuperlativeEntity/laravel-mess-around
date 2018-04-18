@@ -1,0 +1,2 @@
+{!! Form::label('campaign_category_id', trans('campaign.campaign_category'), ['class' => 'control-label"','id' => 'campaign_category_id_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('campaign_category_id', [],null,['id' => 'campaign_category_id','tabindex'=>100]) !!}

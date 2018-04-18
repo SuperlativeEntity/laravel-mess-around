@@ -1,0 +1,2 @@
+{!! Form::label('district_id', trans('building.district'), ['class' => 'control-label"','id' => 'district_id_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('district_id', [],null,['id' => 'district_id','tabindex'=>300]) !!}

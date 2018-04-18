@@ -1,0 +1,2 @@
+var campaign_type       = renderDropDown({ selected_item: '{{ $campaign->campaign_type_id }}', element:campaign_type_id, option:'@lang('campaign.campaign_type_select')', url:'{{ route('admin.drop_down.list',['name' => 'CampaignType']) }}' });
+var campaign_category   = renderDropDown({ selected_item: '{{ $campaign->campaign_category_id }}', element:campaign_category_id, option:'@lang('campaign.campaign_category_select')', url:'{{ route('admin.drop_down.list',['name' => 'CampaignCategory']) }}' });

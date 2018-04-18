@@ -1,0 +1,1 @@
+<input id="password" name="password" type="password" class="form-control input-lg" placeholder="@lang('login.password')"/>

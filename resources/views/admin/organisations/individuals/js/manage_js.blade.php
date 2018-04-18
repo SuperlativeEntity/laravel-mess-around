@@ -1,0 +1,20 @@
+<script>
+    $(document).ready(function ()
+    {
+        @include('admin.organisations.individuals.js.partials.fields')
+        @include('admin.organisations.individuals.js.partials.fields_sub_module')
+        @include('admin.organisations.individuals.js.partials.field_attributes')
+        @include('admin.organisations.individuals.js.partials.field_attributes_sub_module')
+        @include('admin.organisations.individuals.js.partials.tab_index')
+        @include('admin.organisations.individuals.js.partials.drop_downs')
+        @include('admin.organisations.individuals.js.partials.date_pickers')
+        @include('admin.organisations.individuals.js.partials.multi_selects')
+        @include('admin.organisations.individuals.js.partials.select_record')
+        @include('admin.organisations.individuals.js.partials.cancel')
+        @include('admin.organisations.individuals.js.partials.save')
+        @include('admin.organisations.individuals.js.partials.form_validation')
+        @include('admin.organisations.individuals.js.partials.form_validation_link')
+        @include('admin.organisations.individuals.js.partials.link')
+        @include('admin.organisations.individuals.js.partials.unlink')
+    });
+</script>

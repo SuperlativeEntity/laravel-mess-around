@@ -1,0 +1,1 @@
+<a href="{{ route('auth.login') }}"><label style="cursor: pointer;">@lang('login.back_to_login')</label></a>

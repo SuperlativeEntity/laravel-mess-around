@@ -1,0 +1,2 @@
+{!! Form::label('valcon_registered_id', trans('building.valcon_registered'), ['class' => 'control-label"','id' => 'valcon_registered_id_label']) !!} {!! Html::required() !!}<br>
+{!! Form::select('valcon_registered_id', [],null,['id' => 'valcon_registered_id','tabindex'=>300]) !!}
