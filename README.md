@@ -33,13 +33,16 @@ Move models to their own folder.
 Implement Community Suggestions Implement PHP 7 syntax Implement better Laravel methodologies (e.g. relationships, scopes, helpers etc.)
 
 **Installation**
- - composer install 
  - copy .env.example as .env 
+ - composer install 
+ - php artisan key:generate
  - create mysql database
- - change database settings
- - php artisan key:generate php artisan migrate --seed
+ - change database settings 
+ - php artisan migrate --seed
+ - php artisan ide-helper:generate
 
-username: demo@example.com password: Abc123
+username: demo@example.com  
+password: Abc123
 
 **Optional**
 npm install 
