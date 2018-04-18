@@ -13,7 +13,9 @@ After a menu option is selected a second time, a minimal amount of assets are lo
 
 Additional tabs only load their content upon request
 
-**What I think could be much better Rather use**
+**What I think could be much better**
+
+Rather use  
 https://github.com/spatie/laravel-permission
 https://github.com/santigarcor/laratrust
 
@@ -31,6 +33,7 @@ Instead of Kendo UI
 Change gulp / bower stuff to webpack
 Move models to their own folder.
 Implement Community Suggestions Implement PHP 7 syntax Implement better Laravel methodologies (e.g. relationships, scopes, helpers etc.)
+Add Tests (Unit / Dusk)
 
 **Installation**
  - copy .env.example as .env 
@@ -45,9 +48,11 @@ username: demo@example.com
 password: Abc123
 
 **Optional**
-npm install 
+
+npm install  
 bower update
 
 **Kendo UI** 
+
 This is a trial version of their product.
 You'd need to purchase the full version if you want to use it commercially.
